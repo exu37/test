@@ -1,0 +1,22 @@
+cd
+ls
+git config -- global user.name "exu37"
+git config -- global user.email exu37@gmail.com
+git clone (link from github for the repository)
+	e.g. https://github.com/exu37/test.git
+** don't forget to do cd command again to go into the repository folder
+git add (filename)
+	e.g. git add text.txt
+git status
+git commit -m "message" (filename)
+	e.g. git commit -m "First commit" text.txt
+** do git commit for all files that have been modified
+** must do a git commit with just a message before pushing to github
+	e.g. git commit -m "Initial commit"
+git push -u origin master 
+** ^ Sometimes doesn't work
+** error: src refspec master does not match any
+** check issue using: git show-ref
+** if you see main anywhere in the result, 
+** push with this instead: git push origin HEAD:master
+** This is just an issue with github and the way they name things
