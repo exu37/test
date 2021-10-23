@@ -5,7 +5,7 @@ git config -- global user.email exu37@gmail.com
 git clone (link from github for the repository)
 	e.g. https://github.com/exu37/test.git
 ** don't forget to do cd command again to go into the repository folder
-git add (filename)
+git add (filename) OR git rm (filename)
 	e.g. git add text.txt
 git status
 git commit -m "message" (filename)
